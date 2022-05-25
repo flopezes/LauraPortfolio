@@ -1,0 +1,151 @@
+/* Usamos un font más chulo */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+/* Pongo un fondo creado por mi */
+.main_body {
+	/* background-color:#C6D7FA;    */
+	background-image: url('./img/fondo_02.jpg');
+}
+
+/* Hago que mi logo salga centrado */
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 40%;
+}
+
+/* Creo el detalle del menú */
+.main_menu {
+  float: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%); /* Eje de coordenadas x, y */
+  font-size: 30px;
+  font-family: raleway;
+  font-weight: bold;      /* En bold queda muy bien */
+}
+
+.main_menu a {
+	color: white;  /* Cambiamos el color del menú a blanco */
+}
+
+li {
+  float: left;  /* Empieza por la izquierda */
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  margin-right: 50px;
+  text-decoration: none; /* Elimino el subrayado */
+}
+
+/* Elimino los marcadores redondos */
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+}
+
+ul.vertical-menu {
+  width: 100px; /* Ponemos el ancho que más se ajusta */
+}
+
+ul.vertical-menu a {
+  background-color: #eee; /* Pongo backg color a gris */
+  color: black;           /* El texto en negro */
+  display: block;         /* links uno debajo de otro */
+  text-decoration: none;  /* Elimina subrayado de links */
+}
+
+/* Con todas estas opciones defino cómo me gusta el menú 
+   He tenido que hacer muchas pruebas hasta conseguir lo que
+   me parecía que mejor quedaba. 
+   Antes de tocar nada tengo que hace copia.
+*/
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+
+/* Finalmente no voy a usar la imagen que inicialmente pensé en la
+   página principal
+*/
+.main_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 25%;
+}
+
+.design_img {
+  display: block;
+  margin-left: auto;
+  margin-right: 20%;
+  margin-top: 50px;
+  width: 60%;
+}
+
+.d_text {
+	margin-top: 8%;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+   font-family: raleway;
+   font-weight: bold;
+}
+
+.d_text_01 {
+	margin-top: 8%;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+   font-family: raleway;
+   font-weight: bold;
+}
+
+/* Centramos los vídeos */
+.v_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 40%;
+}
